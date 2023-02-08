@@ -5,3 +5,4 @@ Day4 - Chapter1 (Deep Learning-lan Goodfellow)
 Day5 - Video on introduction to aws sagemaker
 Day6 - Chapter2 (Deep Learning-lan Goodfellow)
 Day7 - Chapter2 (Deep Learning-lan Goodfellow)
+Day8 - Lip reading model by Nick
