@@ -7,3 +7,4 @@ Day6 - Chapter2 (Deep Learning-lan Goodfellow)
 Day7 - Chapter2 (Deep Learning-lan Goodfellow)
 Day8 - Lip reading model by Nick
 Day9 - Chapter2 (Deep Learning-lan Goodfellow)
+Day10 - Chapter2 (Deep Learning-lan Goodfellow)
