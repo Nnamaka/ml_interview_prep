@@ -45,3 +45,5 @@ Day44 - Chapter8 (Deep Learning-lan Goodfellow)
 Day45 - Chapter8 (Deep Learning-lan Goodfellow)
 Day46 - Chapter8 (Deep Learning-lan Goodfellow)
 Day47 - Chapter8 (Deep Learning-lan Goodfellow)
+Day48 - Chapter8 (Deep Learning-lan Goodfellow)
+
