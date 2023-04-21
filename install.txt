@@ -1,0 +1,10 @@
+expo-gl-cpp expo-gl expo-camera @react-native-async-storage/async-storage react-native-fs  @tensorflow/tfjs@4.0.0 @tensorflow/tfjs-react-native react-native-barcode-mask react-native-mlkit-ocr expo-image-manipulator
+
+aa@vanguardvision.ai
+
+use docker in amazon linux2(m5.large):
+-sudo yum install docker
+-docker login
+-sudo systemctl start docker.service
+#run ocr docker
+-sudo docker run -p 80:80 nnamaka/ocr:0.2
