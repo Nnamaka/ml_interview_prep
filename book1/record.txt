@@ -47,3 +47,4 @@ Day46 - Chapter8 (Deep Learning-lan Goodfellow)
 Day47 - Chapter8 (Deep Learning-lan Goodfellow)
 Day48 - Chapter8 (Deep Learning-lan Goodfellow)
 Day49 - Chapter8 (Deep Learning-lan Goodfellow)
+Day50 - MLops Cousera
