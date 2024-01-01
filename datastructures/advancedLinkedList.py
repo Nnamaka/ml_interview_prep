@@ -17,6 +17,7 @@ class Node:
 class DoubleLinkedList:
     def __init__(self) -> None:
         self.head = None
+        self.tail = None
 
     # pushing new elements
     def push(self, Newval):
@@ -26,4 +27,4 @@ class DoubleLinkedList:
         if self.head is not None:
             self.head.prev = Newnode
 
-        self.head = New
+        self.head = Newnode
