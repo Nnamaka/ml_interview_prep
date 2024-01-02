@@ -13,6 +13,8 @@ class Quueue:
 
     def push(self,value: str):
         """
+            This function takes in a string and adds it to 
+            the queue
             Args:
                 value (str): the customer in the queue
             Returns:
@@ -31,6 +33,7 @@ class Quueue:
 
     def printQueue(self):
         """
+            This function prints the elements of the queue
             Args:
                 no argument
             Returns:
@@ -42,6 +45,7 @@ class Quueue:
             firstNode = firstNode.next
     def pop(self):
         """
+            This function removes an element from the queue
             takes out argument from the list
             Args:
                 no argument
