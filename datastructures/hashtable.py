@@ -2,3 +2,49 @@
 # this key is then used as an index to extract the value of the index
 
 
+class HashTable():
+    def __init__(self, length=4) -> None:
+        # check if 'length' is a string
+        if not isinstance(length, str):
+            raise TypeError("Value must be a string")
+
+        # create empty array where to store key-pair values
+        # note array is a list of lists because we want to 
+        # accomodate repeated keys
+        self.array = [None] * length
+
+    def hash(self, key):
+        return key % len(self.array)
+    
+    def add(self, key, value):
+        # get the index
+
+        index = hash(key)
+        
+        #create a record if the key doesn't exist
+        if self.array[index] is None:
+            self.array[index].append([key, value])
+        else:
+            # check the list in that index for duplicate key
+            for pair in self.array[index]:
+                if pair[0] == key:
+                    pair[1] = value
+                    break
+            else:
+                self.array[index].append([key, value])
+    
+    def get(self, key):
+        # get the value of a key in the table
+
+        index = self.hash(key)
+
+        if self.array.array[index] is None:
+            raise KeyError("This key doesn't exist")
+        else:
+            for pair in self.array[index]:
+                if pair[0] == key:
+                    return pair[1]
+            
+            # if it has gone through the lis and doesn't fine
+            # a key then the record doesn't exist
+            raise KeyError("This key doesn't exist")
