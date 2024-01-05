@@ -10,10 +10,12 @@ class HashTable():
 
         # create empty array where to store key-pair values
         # note array is a list of lists because we want to 
-        # accomodate repeated keys
+        # accomodate repeated hashes
         self.array = [None] * length
 
     def hash(self, key):
+        # hash key to get index
+        
         return key % len(self.array)
     
     def add(self, key, value):
