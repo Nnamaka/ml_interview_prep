@@ -1,5 +1,8 @@
 # Hashtable class written in python
-# other class methods for thte hashtable are implemented as well
+# other class methods for the hashtable are implemented as well
+# ------------------------------------------------------------
+# A video may be released on youtube explaining how to code Hashtables 
+# with python
 
 class HashTable:
     def __init__(self, length=4) -> None:
