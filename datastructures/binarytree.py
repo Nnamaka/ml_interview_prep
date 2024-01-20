@@ -1,4 +1,4 @@
-# implementation of binary tree datastructure
+# implementation of binary tree datastructure with python
 
 class Node:
     def __init__(self, data) -> None:
