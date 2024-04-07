@@ -1,5 +1,6 @@
-# implementation of binary tree datastructure with python
-# youtube video coming soon
+# a bst is a binary tree where the left-tree node elements are less than or
+# equal to the parent node and the right-tree node elements are greater than 
+# the parent node
 
 class Node:
     def __init__(self, data) -> None:
@@ -60,22 +61,22 @@ class Node:
             res.append(root.data)
         return res
     
-# create root node
+    # searching a BST
+    def findval(self, val):
+        if self.data > val:
+            if self.left is None:
+                return str(val) + " not found⚠"
+            return self.left.findval(val)
+        elif self.data < val:
+            if self.right is None:
+                return str(val) + " not found⚠"
+            return self.right.findval(val)
+        else:
+            return str(val) + " found✅"
+        
 root = Node(12)
-
-# insert data to nodes
 root.insert(6)
 root.insert(14)
 root.insert(3)
-
-# print elements of a binary list
-root.printTree()
-
-root.insert(19)
-root.insert(31)
-root.insert(42)
-
-# trasversing a list
-print(root.inorderTrasversal(root))
-print(root.preorderTrasversal(root))
-print(root.postorderTrasversal(root))
+print(root.findval(7))
+print(root.findval(14))

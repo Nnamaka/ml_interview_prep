@@ -2,7 +2,7 @@ class Queue:
     def __init__(self) -> None:
         self.queue = []
 
-    # insert element into queur
+    # insert element into queue
     def addtoq(self, dataval):
         if dataval not in self.queue:
             self.queue.insert(0, dataval)
